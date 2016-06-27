@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+        <item
+            android:id="@+id/action_refresh"
+            android:title="Adicionar"
+            android:icon="@android:drawable/ic_menu_add"
+            app:showAsAction="ifRoom" />
+
+        <item android:id="@+id/action_settings"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="jose"
+            android:orderInCategory="1"
+            xmlns:app="http://schemas.android.com/apk/res-auto" app:showAsAction="ifRoom">
+
+                <menu xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >
+                        <item android:id="@+id/load"
+                            android:title="teste"
+                            HTMLCode:showAsAction="ifRoom|withText" />
+
+                        <item android:id="@+id/findfirst"
+                            android:title="teste1"
+                            HTMLCode:showAsAction="ifRoom|withText" />
+                </menu>
+        </item>
+
+</menu>
+
+
+
+
